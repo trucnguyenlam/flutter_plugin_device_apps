@@ -22,6 +22,8 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
+    namespace "fr.g123k.deviceapps"
+
     compileSdkVersion 30
 
     defaultConfig {
